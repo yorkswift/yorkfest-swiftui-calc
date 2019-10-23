@@ -14,6 +14,11 @@
 		D708A28D235CA14800EB4E77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D708A28C235CA14800EB4E77 /* Preview Assets.xcassets */; };
 		D708A290235CA14800EB4E77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D708A28E235CA14800EB4E77 /* LaunchScreen.storyboard */; };
 		D708A299235D13D600EB4E77 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D708A298235D13D600EB4E77 /* Calculator.swift */; };
+		D76C73C3235FB02E00E93F51 /* KeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76C73C2235FB02E00E93F51 /* KeyView.swift */; };
+		D76C73C5235FB06800E93F51 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76C73C4235FB06800E93F51 /* CalculatorView.swift */; };
+		D76C73C7235FB0A000E93F51 /* OperationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76C73C6235FB0A000E93F51 /* OperationResult.swift */; };
+		D76C73CA235FB35700E93F51 /* Colours.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76C73C9235FB35700E93F51 /* Colours.swift */; };
+		D76C73CC235FB45F00E93F51 /* KeyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76C73CB235FB45F00E93F51 /* KeyType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		D708A28F235CA14800EB4E77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D708A291235CA14800EB4E77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D708A298235D13D600EB4E77 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		D76C73C2235FB02E00E93F51 /* KeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyView.swift; sourceTree = "<group>"; };
+		D76C73C4235FB06800E93F51 /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		D76C73C6235FB0A000E93F51 /* OperationResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationResult.swift; sourceTree = "<group>"; };
+		D76C73C9235FB35700E93F51 /* Colours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colours.swift; sourceTree = "<group>"; };
+		D76C73CB235FB45F00E93F51 /* KeyType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,8 @@
 		D708A282235CA14600EB4E77 /* Calc */ = {
 			isa = PBXGroup;
 			children = (
+				D76C73C8235FB34D00E93F51 /* Resouces */,
+				D76C73C1235FB01C00E93F51 /* Views */,
 				D708A297235D13B100EB4E77 /* Models */,
 				D708A283235CA14600EB4E77 /* AppDelegate.swift */,
 				D708A285235CA14600EB4E77 /* SceneDelegate.swift */,
@@ -82,8 +94,27 @@
 			isa = PBXGroup;
 			children = (
 				D708A298235D13D600EB4E77 /* Calculator.swift */,
+				D76C73CB235FB45F00E93F51 /* KeyType.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		D76C73C1235FB01C00E93F51 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D76C73C2235FB02E00E93F51 /* KeyView.swift */,
+				D76C73C4235FB06800E93F51 /* CalculatorView.swift */,
+				D76C73C6235FB0A000E93F51 /* OperationResult.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D76C73C8235FB34D00E93F51 /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+				D76C73C9235FB35700E93F51 /* Colours.swift */,
+			);
+			path = Resouces;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,8 +190,13 @@
 			files = (
 				D708A284235CA14600EB4E77 /* AppDelegate.swift in Sources */,
 				D708A299235D13D600EB4E77 /* Calculator.swift in Sources */,
+				D76C73C3235FB02E00E93F51 /* KeyView.swift in Sources */,
 				D708A286235CA14600EB4E77 /* SceneDelegate.swift in Sources */,
+				D76C73C5235FB06800E93F51 /* CalculatorView.swift in Sources */,
+				D76C73C7235FB0A000E93F51 /* OperationResult.swift in Sources */,
+				D76C73CC235FB45F00E93F51 /* KeyType.swift in Sources */,
 				D708A288235CA14600EB4E77 /* ContentView.swift in Sources */,
+				D76C73CA235FB35700E93F51 /* Colours.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
