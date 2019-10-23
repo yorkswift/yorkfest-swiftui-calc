@@ -29,7 +29,8 @@ struct Key : View {
         
         if(label != "0"){ return nil }
         
-        return UIScreen.main.bounds.width / 2
+        // 0 Button is half the width
+        return (UIScreen.main.bounds.width / 2) - 0.5
         
     }
     
